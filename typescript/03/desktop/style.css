@@ -1,0 +1,17 @@
+* { box-sizing: border-box; }
+body { margin: 0; color: #18251f; background: #f4f6f1; font: 15px "Segoe UI", sans-serif; }
+.page { max-width: 680px; margin: auto; padding: 32px 20px; }
+.eyebrow { color: #397b57; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; font-size: .75rem; }
+h1, h2 { letter-spacing: -.04em; } h1 { font-size: 2.5rem; margin: 8px 0; } h2 { margin: 0 0 12px; font-size: 1.15rem; }
+.intro, .status, footer { color: #65736a; }
+.panel { background: white; border: 1px solid #e0e7df; border-radius: 16px; padding: 18px; margin: 12px 0; }
+.create { display: grid; grid-template-columns: 1fr 100px auto; gap: 10px; align-items: end; }
+.create h2 { grid-column: 1 / -1; }
+label { display: grid; gap: 5px; color: #65736a; font-size: .85rem; }
+input { width: 100%; padding: 10px; border: 1px solid #d9e1d9; border-radius: 8px; font: inherit; }
+button { border: 0; border-radius: 8px; padding: 10px 14px; background: #236b43; color: white; font: 600 .9rem "Segoe UI", sans-serif; cursor: pointer; }
+button.secondary { background: #eef4ee; color: #236b43; }
+.dog { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.dog h2 { margin: 0 0 5px; }.dog p { margin: 0; color: #65736a; }.icon { float: left; font-size: 1.7rem; margin-right: 12px; }
+.actions { display: flex; gap: 8px; }.status { min-height: 24px; font-weight: 600; } footer { font-size: .82rem; margin-top: 24px; }
+@media(max-width:520px) { .create { grid-template-columns: 1fr; } .create h2 { grid-column: auto; }.dog { align-items: flex-start; flex-direction: column; } }

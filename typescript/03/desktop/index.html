@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OOP Dogs — TypeScript Desktop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <p class="eyebrow">TypeScript · Object-oriented programming</p>
+    <h1>Dog playground</h1>
+    <p class="intro">Each dog is an object with its own name, age, and methods.</p>
+    <form id="dog-form" class="panel create">
+      <h2>Create a Dog object</h2>
+      <label>Name <input id="name" required maxlength="40" placeholder="e.g. Max"></label>
+      <label>Age <input id="age" required type="number" min="0" step="1" placeholder="3"></label>
+      <button>Add dog</button>
+    </form>
+    <section id="dogs" class="dogs" aria-label="Dog objects"></section>
+    <p id="status" class="status" role="status">Create a dog or try an action.</p>
+    <footer>Electron hosts this desktop window; the dog model and UI are written in TypeScript.</footer>
+  </main>
+  <script type="module" src="dist/renderer.js"></script>
+</body>
+</html>
