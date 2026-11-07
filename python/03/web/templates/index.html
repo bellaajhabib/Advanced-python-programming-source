@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OOP Dogs — Web</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <main class="page">
+    <header>
+      <p class="eyebrow">Python · Object-oriented programming</p>
+      <h1>Dog playground</h1>
+      <p>Each card represents a separate <code>Dog</code> object with its own attributes and methods.</p>
+    </header>
+
+    {% if error %}<p class="alert" role="alert">{{ error }}</p>{% endif %}
+
+    <section class="create panel" aria-labelledby="create-title">
+      <h2 id="create-title">Create a Dog object</h2>
+      <form action="{{ url_for('add_dog') }}" method="post">
+        <label>Name <input name="name" required maxlength="40" placeholder="e.g. Max"></label>
+        <label>Age <input name="age" type="number" min="0" step="1" required placeholder="3"></label>
+        <button type="submit">Add dog</button>
+      </form>
+    </section>
+
+    <section class="dogs" aria-label="Dog objects">
+      {% for dog in dogs %}
+      {% set dog_index = loop.index0 %}
+      <article class="dog panel">
+        <div class="dog-icon" aria-hidden="true">🐕</div>
+        <div class="dog-info">
+          <h2>{{ dog.name }}</h2>
+          <p>Age: <strong>{{ dog.age }}</strong></p>
+          {% if dog_index in messages %}<p class="message" role="status">{{ messages[dog_index] }}</p>{% endif %}
+          <div class="actions">
+            <form action="{{ url_for('bark', index=dog_index) }}" method="post"><button type="submit" class="secondary">Bark</button></form>
+            <form action="{{ url_for('birthday', index=dog_index) }}" method="post"><button type="submit" class="secondary">Birthday (+1)</button></form>
+          </div>
+        </div>
+      </article>
+      {% endfor %}
+    </section>
+
+    <footer>Lesson: <code>bark()</code> returns a value; <code>birthday()</code> changes that object's age.</footer>
+  </main>
+</body>
+</html>

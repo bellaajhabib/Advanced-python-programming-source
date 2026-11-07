@@ -30,6 +30,7 @@
     "PYTHONDONTWRITEBYTECODE": "1",
     "XDEBUG_MODE": "off"
   },
+  "forwardPorts": [5000],
   "postCreateCommand": "bash .devcontainer/verify-toolchains.sh",
   "remoteUser": "vscode",
   "customizations": {
