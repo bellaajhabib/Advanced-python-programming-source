@@ -1,25 +1,44 @@
-# OOP Dogs: Java Web App
+# OOP Dogs: Spring Boot Web App
 
-A small web application using only the JDK's built-in HTTP server. Each card is rendered from a Java `Dog` object; form submissions call that object's methods.
+This beginner-sized Spring Boot 4 application turns `java/03/Oop.java` into a web app. It uses Java 25, Maven, Spring MVC, one in-memory service, a REST controller, and a browser page. No database is needed.
 
 ## Run in the Dev Container
 
-From the repository root:
+The Dev Container provides Java 25 and Maven. After changing `installMaven` in `.devcontainer/devcontainer.json`, rebuild/recreate the Dev Container to apply it. Then, from the repository root inside the container:
 
 ```bash
-javac -d /tmp/java-oop-web java/03/web/WebApp.java
-java -cp /tmp/java-oop-web WebApp
+cd java/03/web
+mvn spring-boot:run
 ```
 
-Open <http://localhost:8081> if port 8081 is forwarded by the Dev Container tool. Stop the server with `Ctrl+C`.
+Open <http://localhost:8081>. Port `8081` is listed in `.devcontainer/devcontainer.json` for forwarding. Stop the app with `Ctrl+C`.
 
 ## Run on Windows
 
-From PowerShell in the repository root:
+Install Java 25 and Maven, open PowerShell at the repository root, and run:
 
 ```powershell
-javac -d java\03\web\out java\03\web\WebApp.java
-java -cp java\03\web\out WebApp
+cd java\03\web
+mvn spring-boot:run
 ```
 
-Open <http://localhost:8081>. The demo stores dog objects in memory, so they reset when the server stops. This built-in server is for local learning, not public deployment.
+Open <http://localhost:8081>.
+
+## Follow the request flow
+
+1. `DogWebApplication` starts Spring Boot and its embedded web server.
+2. `DogController` maps browser requests such as `GET /api/dogs` and `POST /api/dogs/{id}/birthday`.
+3. `DogService` stores and finds the in-memory Dog objects.
+4. `Dog` holds `name` and `age`, and implements `bark()` and `birthday()`.
+5. `src/main/resources/static/index.html` calls the REST endpoints with `fetch()` and renders the returned JSON.
+
+Try the REST API directly:
+
+```bash
+curl http://localhost:8081/api/dogs
+curl -X POST http://localhost:8081/api/dogs -H 'Content-Type: application/json' -d '{"name":"Max","age":3}'
+curl -X POST http://localhost:8081/api/dogs/1/bark
+curl -X POST http://localhost:8081/api/dogs/1/birthday
+```
+
+Data stays in memory and resets when the application restarts. This example is for learning locally, not public deployment.

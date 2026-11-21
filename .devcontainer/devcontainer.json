@@ -19,7 +19,7 @@
       "version": "25",
       "jdkDistro": "ms",
       "installGradle": false,
-      "installMaven": false
+      "installMaven": true
     },
     "ghcr.io/devcontainers/features/php:1": {
       "version": "8.5",

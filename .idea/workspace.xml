@@ -1,18 +1,158 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a127ddb-384f-4e1c-9d0e-be0e3f516949" name="Changes" comment="" />
+    <list default="true" id="8a127ddb-384f-4e1c-9d0e-be0e3f516949" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jsonSchemas.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/COURSE_DEVCONTAINER_PYTHON_OOP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/03/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/03/web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/03/web/src/main/java/learning/oop/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/03/web/src/main/java/learning/oop/DogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/03/web/src/main/java/learning/oop/DogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/03/web/src/main/java/learning/oop/DogWebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/03/web/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/03/web/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/03/web/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/03/web/target/classes/learning/oop/Dog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/03/web/target/classes/learning/oop/DogController$AddDogRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/03/web/target/classes/learning/oop/DogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/03/web/target/classes/learning/oop/DogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/03/web/target/classes/learning/oop/DogWebApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/03/web/target/classes/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/03/web/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/03/web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/03/web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/03/web/target/oop-dogs-web-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/03/web/target/oop-dogs-web-1.0.0.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/03/student.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/03/AccessSpecifiers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/03/IntDel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/03/Student.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/03/inheritance_init.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/03/multiple_inheritance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/03/polymorphism.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/03/super.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typescript/03/student.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.devcontainer/devcontainer.json" beforeDir="false" afterPath="$PROJECT_DIR$/.devcontainer/devcontainer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/claudeCodeTabState.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/claudeCodeTabState.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Scripts/python313.dll" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Scripts/python313.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/pyvenv.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/02/resume/Decorators.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/02/resume/Decorators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/02/resume/Generate.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/02/resume/Generate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/03/web/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/java/03/web/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/03/web/WebApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdf.py" beforeDir="false" afterPath="$PROJECT_DIR$/pdf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/02/decorators.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/02/decorators.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/02/generate.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/02/generate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/02/decorators.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/02/decorators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/02/reduce.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/02/reduce.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/02/resume/01_basics.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/02/resume/01_basics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/02/resume/02_strings_and_pure_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/02/resume/02_strings_and_pure_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/02/resume/03_lambda_map_filter_reduce.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/02/resume/03_lambda_map_filter_reduce.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/02/resume/04_generators.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/02/resume/04_generators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/02/resume/05_decorators.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/02/resume/05_decorators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/02/resume/06_resume_matcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/02/resume/06_resume_matcher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/02/resume/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/python/02/resume/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/filter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/list.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/map.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/map.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typescript/02/decorators.ts" beforeDir="false" afterPath="$PROJECT_DIR$/typescript/02/decorators.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typescript/02/generate.ts" beforeDir="false" afterPath="$PROJECT_DIR$/typescript/02/generate.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="164" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.243672659542772" />
+      <entry key="MS500" value="3.1897033155561436" />
+      <entry key="S2" value="8.252360698217583" />
+      <entry key="S5" value="15.856163906159631" />
+      <entry key="S10" value="24.39299640086506" />
+      <entry key="S30" value="38.4077269399347" />
+      <entry key="S60" value="44.64435953615551" />
+      <entry key="M2" value="48.61345078947714" />
+      <entry key="M5" value="53.90106168457473" />
+      <entry key="M10" value="61.45494366931337" />
+      <entry key="M15" value="66.71499164255152" />
+      <entry key="M30" value="76.05587049008285" />
+      <entry key="H1" value="94.93142721294554" />
+      <entry key="H2" value="132.84129304760376" />
+      <entry key="H4" value="176.29081389054085" />
+      <entry key="D1" value="239.08822511503345" />
+      <entry key="W1" value="253.47561253693638" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="2.1899391234812674E-114" />
+      <entry key="S5" value="4.550558804810853E-46" />
+      <entry key="S10" value="3.351171822949071E-23" />
+      <entry key="S30" value="6.55774720083606E-8" />
+      <entry key="S60" value="4.423442830626237E-4" />
+      <entry key="M2" value="0.036404185921870766" />
+      <entry key="M5" value="0.5136466930970464" />
+      <entry key="M10" value="1.2413142233039804" />
+      <entry key="M15" value="1.665899614988302" />
+      <entry key="M30" value="2.2501651307582615" />
+      <entry key="H1" value="2.834641972643036" />
+      <entry key="H2" value="3.8693777003633247" />
+      <entry key="H4" value="5.205879894515082" />
+      <entry key="D1" value="7.376291403398406" />
+      <entry key="W1" value="7.9059596739859925" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.1885053526841733" />
+      <entry key="MS500" value="3.1572382942839443" />
+      <entry key="S2" value="8.230898132882867" />
+      <entry key="S5" value="15.839182988538015" />
+      <entry key="S10" value="24.378996872058003" />
+      <entry key="S30" value="38.39911115593023" />
+      <entry key="S60" value="44.639406396649775" />
+      <entry key="M2" value="48.64609280169692" />
+      <entry key="M5" value="54.407686046151035" />
+      <entry key="M10" value="62.686921787500445" />
+      <entry key="M15" value="68.37194634330741" />
+      <entry key="M30" value="78.29942406513611" />
+      <entry key="H1" value="97.76143707365672" />
+      <entry key="H2" value="136.7071288329886" />
+      <entry key="H4" value="181.494164825675" />
+      <entry key="D1" value="246.46389805002892" />
+      <entry key="W1" value="261.38147713613586" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="3KTWAw1hJ4bwaqLfTtlYNtboj8z" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -20,15 +160,202 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Java File (Portable).DogDesktopApp.java.executor": "Run",
+    "Java File (Portable).Generate.java.executor": "Run",
+    "Java File (Portable).WebApp.java.executor": "Run",
+    "JavaScript Debug.index.html.executor": "Run",
+    "KEY_CHAT_IN_TOOLWINDOW": "false",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.04_generators.executor": "Run",
+    "Python.AccessSpecifiers.executor": "Run",
+    "Python.IntDel.executor": "Run",
+    "Python.Student.executor": "Run",
+    "Python.app.executor": "Run",
+    "Python.chess_game.executor": "Run",
+    "Python.decorators.executor": "Run",
+    "Python.dog_app.executor": "Run",
+    "Python.filter.executor": "Run",
+    "Python.generate.executor": "Run",
+    "Python.higer_order.executor": "Run",
+    "Python.inheritance_init.executor": "Debug",
+    "Python.lambda_example.executor": "Run",
+    "Python.list.executor": "Run",
+    "Python.lottery_turtle.executor": "Run",
+    "Python.main (1).executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.map.executor": "Run",
+    "Python.multiple_inheritance.executor": "Debug",
+    "Python.oop.executor": "Run",
+    "Python.pdf.executor": "Run",
+    "Python.polymorphism.executor": "Run",
+    "Python.pure_function_example.executor": "Run",
+    "Python.reduce.executor": "Run",
+    "Python.super.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true"
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHELLCHECK.PATH": "C:\\Users\\mhbellaaj\\AppData\\Roaming\\JetBrains\\PyCharm2025.2\\plugins\\Shell Script\\shellcheck.exe",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/Documents/Python",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\PyCharm 2025.2.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\Python\typescript\02" />
+      <recent name="D:\Documents\Python\php\02" />
+      <recent name="D:\Documents\Python\java\02\resume" />
+      <recent name="D:\Documents\Python\java\02" />
+      <recent name="C:\Users\mhbellaaj\Documents\Python\typescript" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.lottery_turtle">
+    <configuration name="AccessSpecifiers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/03/AccessSpecifiers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="inheritance_init" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/03/inheritance_init.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lottery_turtle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/03/lottery_turtle.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="polymorphism" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/03/polymorphism.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="super" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/03/super.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.lottery_turtle" />
+        <item itemvalue="Python.AccessSpecifiers" />
+        <item itemvalue="Python.polymorphism" />
+        <item itemvalue="Python.super" />
+        <item itemvalue="Python.inheritance_init" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-164cda30dcd9-0af03a5fa574-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.26830.99" />
+        <option value="bundled-python-sdk-73a66231627c-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.10968.92" />
       </set>
     </attachedChunks>
   </component>
@@ -41,5 +368,63 @@
       <updated>1791581899063</updated>
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/03/multiple_inheritance.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/03/inheritance_init.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/03/inheritance_init.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/03/inheritance_init.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/03/inheritance_init.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/03/inheritance_init.py</url>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/03/inheritance_init.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/03/inheritance_init.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/03/inheritance_init.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/03/inheritance_init.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
